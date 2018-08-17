@@ -1,0 +1,22 @@
+{
+  "name": "react-spr-messenger-client",
+  "version": "1.0.0",
+  "description": "Sprinklr Messenger Client",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "./tools/build"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-react-jsx-self": "^6.22.0",
+    "babel-plugin-transform-react-jsx-source": "^6.22.0",
+    "babel-plugin-transform-runtime": "^6.6.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.5.0"
+  }
+}

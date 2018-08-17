@@ -1,0 +1,17 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "loose": true,
+        "targets": {
+          "browsers": ["> 4%", "ie 11", "safari 8"],
+          "node": "current"
+        },
+        "useBuiltIns": false
+      }
+    ],
+    "react"
+  ],
+  "plugins": ["transform-runtime", "transform-react-jsx-source"]
+}
